@@ -44,3 +44,8 @@ GObject* compilerkit_character_class_new(gunichar hi, gunichar lo)
     }
     return newExpression;
 }
+
+GObject* compilerkit_times_new(GObject* regex, int times)
+{
+
+}
