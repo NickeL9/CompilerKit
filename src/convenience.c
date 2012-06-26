@@ -45,7 +45,8 @@ GObject* compilerkit_character_class_new(gunichar hi, gunichar lo)
     return newExpression;
 }
 
-GObject* compilerkit_times_new(GObject* regex, int times)
+GObject* compilerkit_times_new(GObject* regex, int k, int l)
 {
-
+	GObject* k_Count;
+	GObject* l_Count;
 }
